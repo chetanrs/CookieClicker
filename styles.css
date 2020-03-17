@@ -1,0 +1,14 @@
+#main-cookie {
+    transform: rotate(0deg);
+    animation: rotateCookie 10s infinite linear;
+    cursor: grab;
+}
+
+@keyframes rotateCookie {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
